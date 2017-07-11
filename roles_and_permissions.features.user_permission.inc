@@ -15,7 +15,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Associate XML Forms',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -25,7 +24,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Create XML Forms',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -35,7 +33,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Delete XML Forms',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -45,7 +42,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Edit XML Forms',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -75,9 +71,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'List XML Forms',
     'roles' => array(
       'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'xml_form_builder',
   );
@@ -87,7 +80,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'Manage CSL Citations',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'csl',
   );
@@ -97,7 +89,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access administration pages',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'system',
   );
@@ -215,7 +206,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'access user profiles',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'user',
   );
@@ -254,7 +244,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer blocks',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'block',
   );
@@ -285,7 +274,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer content types',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'node',
   );
@@ -295,7 +283,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer contexts',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'context_ui',
   );
@@ -352,7 +339,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer google analytics',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'googleanalytics',
   );
@@ -372,7 +358,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer image styles',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'image',
   );
@@ -392,7 +377,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora oai',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_oai',
   );
@@ -402,7 +386,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora solr',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_solr',
   );
@@ -422,7 +405,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_pathauto',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_pathauto',
   );
@@ -432,7 +414,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_solr_metadata',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_solr_metadata',
   );
@@ -442,7 +423,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_xacml_api',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_xacml_api',
   );
@@ -452,7 +432,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer islandora_xacml_editor',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_xacml_editor',
   );
@@ -462,7 +441,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer menu',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'menu',
   );
@@ -472,7 +450,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer module filter',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'module_filter',
   );
@@ -511,7 +488,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer permissions',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'user',
   );
@@ -521,7 +497,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer rules',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'rules',
   );
@@ -531,7 +506,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer search',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'search',
   );
@@ -541,7 +515,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer shortcuts',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'shortcut',
   );
@@ -551,7 +524,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer site configuration',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'system',
   );
@@ -570,7 +542,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer taxonomy',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'taxonomy',
   );
@@ -580,7 +551,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer themes',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'system',
   );
@@ -600,7 +570,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer users',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'user',
   );
@@ -619,7 +588,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer xacml inheritance',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'islandora_xacml_editor',
   );
@@ -629,7 +597,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'administer xmlsitemap',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'xmlsitemap',
   );
@@ -714,7 +681,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'context ajax block access',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'context_ui',
   );
@@ -793,7 +759,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'customize shortcut links',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'shortcut',
   );
@@ -883,7 +848,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'delete terms in tags',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'taxonomy',
   );
@@ -994,7 +958,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'edit terms in tags',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'taxonomy',
   );
@@ -1236,7 +1199,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'switch shortcut sets',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'shortcut',
   );
@@ -1307,7 +1269,6 @@ function roles_and_permissions_user_default_permissions() {
     'roles' => array(
       'administrator' => 'administrator',
       'collection admin' => 'collection admin',
-      'intern' => 'intern',
     ),
     'module' => 'filter',
   );
@@ -1403,7 +1364,6 @@ function roles_and_permissions_user_default_permissions() {
     'name' => 'view the administration theme',
     'roles' => array(
       'administrator' => 'administrator',
-      'collection admin' => 'collection admin',
     ),
     'module' => 'system',
   );
